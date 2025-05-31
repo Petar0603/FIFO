@@ -1,0 +1,116 @@
+# KERNEL: UVM_INFO @ 0: reporter [RNTST] Running test test...
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_root.svh(583) @ 0: reporter [UVMTOP] UVM testbench topology:
+# KERNEL: --------------------------------------------------------------
+# KERNEL: Name                       Type                    Size  Value
+# KERNEL: --------------------------------------------------------------
+# KERNEL: uvm_test_top               test                    -     @340 
+# KERNEL:   env                      environment             -     @358 
+# KERNEL:     agn                    agent                   -     @376 
+# KERNEL:       drv                  driver                  -     @395 
+# KERNEL:         port               uvm_blocking_put_port   -     @561 
+# KERNEL:         rsp_port           uvm_analysis_port       -     @414 
+# KERNEL:         seq_item_port      uvm_seq_item_pull_port  -     @404 
+# KERNEL:       mon                  monitor                 -     @386 
+# KERNEL:         port               uvm_analysis_port       -     @572 
+# KERNEL:       seq                  uvm_sequencer           -     @424 
+# KERNEL:         rsp_export         uvm_analysis_export     -     @433 
+# KERNEL:         seq_item_export    uvm_seq_item_pull_imp   -     @551 
+# KERNEL:         arbitration_queue  array                   0     -    
+# KERNEL:         lock_queue         array                   0     -    
+# KERNEL:         num_last_reqs      integral                32    'd1  
+# KERNEL:         num_last_rsps      integral                32    'd1  
+# KERNEL:     sco                    scoreboard              -     @367 
+# KERNEL:       driver_imp           uvm_blocking_put_imp    -     @601 
+# KERNEL:       monitor_imp          uvm_analysis_imp        -     @591 
+# KERNEL: --------------------------------------------------------------
+# KERNEL: 
+# KERNEL: UVM_INFO /home/runner/driver.sv(27) @ 50000: uvm_test_top.env.agn.drv [drv] Reset done.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 50000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 0 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 50000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 50000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 4, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 50000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 4, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 56000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 0, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 56000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 60000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 1 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 60000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 60000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 0, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 60000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 0, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 66000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 0, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 66000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 70000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 2 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 70000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 70000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 13, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 70000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 13, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 76000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 0, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 76000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 80000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 3 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 80000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing read operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 80000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 11, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 80000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 11, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 86000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 4, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(32) @ 86000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 86000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 90000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 4 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 90000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing read operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 90000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 28, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 90000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 28, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 96000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 0, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(32) @ 96000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 96000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 100000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 5 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 100000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing read operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 100000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 23, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 100000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 23, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 106000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 13, empty: 1, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(32) @ 106000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(44) @ 106000: uvm_test_top.env.sco [sco] FIFO is empty!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 110000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 6 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 110000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 110000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 18, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 110000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 18, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 116000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 13, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 116000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 120000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 7 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(15) @ 120000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing read operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 120000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 2, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 120000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 2, wr: 0, rd: 1.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 126000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 18, empty: 1, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(32) @ 126000: uvm_test_top.env.sco [sco] Data match!
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(44) @ 126000: uvm_test_top.env.sco [sco] FIFO is empty!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 130000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 8 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 130000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 130000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 7, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 130000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 7, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 136000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 18, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 136000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(27) @ 140000: uvm_test_top.env.agn.seq@@seq1 [seq1] Iteration no. 9 
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(12) @ 140000: uvm_test_top.env.agn.seq@@seq1 [seq1] Performing write operation.
+# KERNEL: UVM_INFO /home/runner/sequence1.sv(29) @ 140000: uvm_test_top.env.agn.seq@@seq1 [seq1] Data sent to Driver: din: 3, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/driver.sv(37) @ 140000: uvm_test_top.env.agn.drv [drv] Stimulus applied: din: 3, wr: 1, rd: 0.
+# KERNEL: UVM_INFO /home/runner/monitor.sv(28) @ 146000: uvm_test_top.env.agn.mon [mon] Data sampled: dout: 18, empty: 0, full: 0.
+# KERNEL: UVM_INFO /home/runner/scoreboard.sv(47) @ 146000: uvm_test_top.env.sco [sco] FIFO has data written!
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_objection.svh(1271) @ 150000: reporter [TEST_DONE] 'run' phase is ready to proceed to the 'extract' phase
+# KERNEL: UVM_INFO /home/build/vlib1/vlib/uvm-1.2/src/base/uvm_report_server.svh(869) @ 150000: reporter [UVM/REPORT/SERVER] 
+# KERNEL: --- UVM Report Summary ---
+# KERNEL: 
+# KERNEL: Quit count :     0 of     1
+# KERNEL: ** Report counts by severity
+# KERNEL: UVM_INFO :   69
+# KERNEL: UVM_WARNING :    0
+# KERNEL: UVM_ERROR :    0
+# KERNEL: UVM_FATAL :    0
+# KERNEL: ** Report counts by id
+# KERNEL: [RNTST]     1
+# KERNEL: [TEST_DONE]     1
+# KERNEL: [UVM/RELNOTES]     1
+# KERNEL: [UVMTOP]     1
+# KERNEL: [drv]    11
+# KERNEL: [mon]    10
+# KERNEL: [sco]    14
+# KERNEL: [seq1]    30
+# KERNEL: 
+# RUNTIME: Info: RUNTIME_0068 uvm_root.svh (521): $finish called.
+# KERNEL: Time: 150 ns,  Iteration: 62,  Instance: /fifo_tb_top,  Process: @INITIAL#30_2@.
+# KERNEL: stopped at time: 150 ns
+# VSIM: Simulation has finished. There are no more test vectors to simulate.
+# VSIM: Simulation has finished.

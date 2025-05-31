@@ -1,0 +1,188 @@
+run all
+[GEN] : READ OPERATION 	 | 	 TIME : 55000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 55000
+[MON] : DIN : 21 	 DOUT : 0 	 WR : 0 	 RD : 1 	 EMPTY : 1 	 FULL : 0 	 | 	 TIME : 68000
+[SCO] : FIFO IS EMPTY! 	 | 	 TIME : 68000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 68000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 13 	 | 	 TIME : 68000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 13 	 | 	 TIME : 68000
+[MON] : DIN : 13 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 78000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 78000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 78000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 0 	 | 	 TIME : 78000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 0 	 | 	 TIME : 78000
+[MON] : DIN : 0 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 88000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 88000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 88000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 22 	 | 	 TIME : 88000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 22 	 | 	 TIME : 88000
+[MON] : DIN : 22 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 98000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 98000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 98000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 23 	 | 	 TIME : 98000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 23 	 | 	 TIME : 98000
+[MON] : DIN : 23 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 108000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 108000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 108000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 20 	 | 	 TIME : 108000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 20 	 | 	 TIME : 108000
+[MON] : DIN : 20 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 118000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 118000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 118000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 29 	 | 	 TIME : 118000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 29 	 | 	 TIME : 118000
+[MON] : DIN : 29 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 128000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 128000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 128000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 12 	 | 	 TIME : 128000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 12 	 | 	 TIME : 128000
+[MON] : DIN : 12 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 138000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 138000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 138000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 10 	 | 	 TIME : 138000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 10 	 | 	 TIME : 138000
+[MON] : DIN : 10 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 148000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 148000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 148000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 30 	 | 	 TIME : 148000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 30 	 | 	 TIME : 148000
+[MON] : DIN : 30 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 158000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 158000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 158000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 17 	 | 	 TIME : 158000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 17 	 | 	 TIME : 158000
+[MON] : DIN : 17 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 168000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 168000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 168000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 3 	 | 	 TIME : 168000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 3 	 | 	 TIME : 168000
+[MON] : DIN : 3 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 178000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 178000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 178000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 178000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 178000
+[MON] : DIN : 4 	 DOUT : 13 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 188000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 188000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 188000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 188000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 1 	 | 	 TIME : 188000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 1 	 | 	 TIME : 188000
+[MON] : DIN : 1 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 198000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 198000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 198000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 5 	 | 	 TIME : 198000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 5 	 | 	 TIME : 198000
+[MON] : DIN : 5 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 208000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 208000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 208000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 28 	 | 	 TIME : 208000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 28 	 | 	 TIME : 208000
+[MON] : DIN : 28 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 218000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 218000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 218000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 14 	 | 	 TIME : 218000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 14 	 | 	 TIME : 218000
+[MON] : DIN : 14 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 228000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 228000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 228000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 18 	 | 	 TIME : 228000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 18 	 | 	 TIME : 228000
+[MON] : DIN : 18 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 238000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 238000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 238000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 2 	 | 	 TIME : 238000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 2 	 | 	 TIME : 238000
+[MON] : DIN : 2 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 248000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 248000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 248000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 16 	 | 	 TIME : 248000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 16 	 | 	 TIME : 248000
+[MON] : DIN : 16 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 258000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 258000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 258000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 25 	 | 	 TIME : 258000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 25 	 | 	 TIME : 258000
+[MON] : DIN : 25 	 DOUT : 13 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 268000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 268000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 268000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 268000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 268000
+[MON] : DIN : 7 	 DOUT : 0 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 278000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 278000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 278000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 278000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 8 	 | 	 TIME : 278000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 8 	 | 	 TIME : 278000
+[MON] : DIN : 8 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 288000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 288000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 288000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 15 	 | 	 TIME : 288000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 15 	 | 	 TIME : 288000
+[MON] : DIN : 15 	 DOUT : 0 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 298000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 298000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 298000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 298000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 298000
+[MON] : DIN : 19 	 DOUT : 22 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 308000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 308000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 308000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 308000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 26 	 | 	 TIME : 308000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 26 	 | 	 TIME : 308000
+[MON] : DIN : 26 	 DOUT : 22 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 318000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 318000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 318000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 318000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 318000
+[MON] : DIN : 11 	 DOUT : 23 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 328000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 328000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 328000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 328000
+-----------------------------------------------------
+[GEN] : WRITE OPERATION 	 DIN : 27 	 | 	 TIME : 328000
+[DRV] : PERFORMING WRITE OPERATION 	 DIN : 27 	 | 	 TIME : 328000
+[MON] : DIN : 27 	 DOUT : 23 	 WR : 1 	 RD : 0 	 EMPTY : 0 	 FULL : 1 	 | 	 TIME : 338000
+[SCO] : FIFO IS FULL! 	 | 	 TIME : 338000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 338000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 338000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 338000
+[MON] : DIN : 24 	 DOUT : 20 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 348000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 348000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 348000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 348000
+-----------------------------------------------------
+[GEN] : READ OPERATION 	 | 	 TIME : 348000
+[DRV] : PERFORMING READ OPERATION 	 | 	 TIME : 348000
+[MON] : DIN : 6 	 DOUT : 29 	 WR : 0 	 RD : 1 	 EMPTY : 0 	 FULL : 0 	 | 	 TIME : 358000
+[SCO] : DATA OUTPUT MATCHES GOLDEN DATA! 	 | 	 TIME : 358000
+[SCO] : FIFO HAS DATA WRITTEN! 	 | 	 TIME : 358000
+[SCO] : CURRENT ERROR COUNT = 0 	 | 	 TIME : 358000
+-----------------------------------------------------
+$finish called at time : 357500 ps
