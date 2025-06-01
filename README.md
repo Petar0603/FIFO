@@ -7,6 +7,8 @@ FIFO memory designed in Verilog and verified in SystemVerilog and UVM.
 - 16*8 memory.
 - 'cnt' counts the current memory locations occupied for 'empty' and 'full' flags.
 - 'wrptr' and 'rdptr' are registers that store the location in memory from which data is read or written.
+- Testbench files are in 'fifo_tb_sv' and 'fifo_tb_uvm' folders. (Both include 'fifo_pkg' packages
+with all of the classes included: driver, monitor, scoreboard etc.)
 
 ---
 ## Simulation Screenshots
